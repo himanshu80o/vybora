@@ -6,7 +6,7 @@ import {
 import { StatusBar } from 'expo-status-bar';
 import { useEvent, requireNativeModule } from 'expo';
 import { useVideoPlayer, VideoView } from 'expo-video';
-import * as MediaLibrary from 'expo-media-library';
+import * as MediaLibrary from 'expo-media-library/legacy';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Ionicons, MaterialCommunityIcons } from '@expo/vector-icons';
 import AsyncStorage from '@react-native-async-storage/async-storage';
